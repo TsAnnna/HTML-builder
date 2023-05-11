@@ -7,4 +7,3 @@ let result = '';
 
 stream.on('data', chunk => result += chunk);
 stream.on('end', () => stdout.write(result));
-
